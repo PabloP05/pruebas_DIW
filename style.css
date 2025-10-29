@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1600px;
+    position: relative;
+}
+
+header{
+    width: 1600px;
+    height: 50px;
+    background-color: aqua;
+}
+
+nav{
+    width: 1600px;
+    height: 50px;
+    background-color: blue;
+}
+
+main{
+    width: 1600px;
+    display: flow-root;
+    background-color: yellow;
+}
+footer{
+    width: 1600px;
+    background-color: blueviolet;
+    height: 100px;
+    clear: left;
+    clear: both;
+}
+
+
+/* COMPONENTES */
+
+main>div:nth-child(1){
+    width: 300px;
+    height: 1000px;
+    background-color: aqua;
+    float: left;
+}
+
+main>div:nth-child(2){
+    width: 1200px;
+    height: 900px;
+    background-color: violet;
+    float: left;
+    overflow: auto;
+    padding: 50px 50px;
+}
+
+form{
+    background-color: aliceblue;
+    width: 300px;
+    padding:20px 20px;
+}
+
+label{
+    display: block;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 100px;
+}
+
+.datos{
+    width: 450px ;
+    height: 300px;
+    float: left;
+    background-color: chocolate;
+    margin-left: 41.66px;
+}

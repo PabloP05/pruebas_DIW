@@ -56,6 +56,7 @@ form{
     background-color: aliceblue;
     width: 300px;
     padding:20px 20px;
+    margin: 50px auto;
 }
 
 label{
@@ -73,4 +74,25 @@ input[type="submit"]{
     float: left;
     background-color: chocolate;
     margin-left: 41.66px;
+}
+
+
+/* AGREGADO DE FUNENTES DENTRO DE LOS TEXTOS */
+
+@font-face {
+    font-family: 'miFuente';
+    src: url(fuente.ttf); /*funente agregada mendiante archivo ttf*/
+}
+
+p{
+    font-family: miFuente; /* fuente agregada */
+}
+
+
+/* PRUEBAS CON BOX-SIZING*/
+
+input[type="text"]{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
 }
